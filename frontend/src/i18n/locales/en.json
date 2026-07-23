@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Home",
+    "positions": "Positions",
+    "attributes": "Attribute Library",
+    "profile": "My Profile",
+    "login": "Sign in",
+    "register": "Create account",
+    "logout": "Sign out",
+    "search_placeholder": "Search positions, CVs, candidates…"
+  },
+  "attributes": {
+    "title": "Attribute Library",
+    "subtitle": "Reusable fields shared across profiles, positions, and CVs.",
+    "new": "New attribute",
+    "name": "Name",
+    "category": "Category",
+    "type": "Type",
+    "description": "Description",
+    "recently_used": "Recently used",
+    "all_categories": "All categories",
+    "search_placeholder": "Search by name…",
+    "delete_selected": "Delete",
+    "edit_selected": "Edit",
+    "selected_count": "{{count}} selected",
+    "system_badge": "Built-in",
+    "empty": "No attributes match your filters yet.",
+    "options": "Options (one per line)",
+    "save": "Save attribute",
+    "cancel": "Cancel"
+  },
+  "positions": {
+    "title": "Positions",
+    "subtitle": "Customizable CV templates, shared across all recruiters."
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "sign_in": "Sign in",
+    "create_account": "Create account",
+    "or": "or continue with",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error_generic": "Something went wrong. Please try again."
+  }
+}

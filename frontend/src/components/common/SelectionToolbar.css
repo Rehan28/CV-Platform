@@ -1,0 +1,82 @@
+.sel-tray {
+  position: sticky;
+  bottom: 1.25rem;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  margin-top: 1rem;
+  transform: translateY(140%);
+  opacity: 0;
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s ease;
+}
+
+.sel-tray-open {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sel-tray-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  background: var(--ink);
+  color: var(--surface);
+  padding: 0.6rem 0.6rem 0.6rem 1rem;
+  border-radius: 999px;
+  box-shadow: var(--shadow-lg);
+}
+
+[data-theme="dark"] .sel-tray-inner {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+}
+
+.sel-tray-clear {
+  background: transparent;
+  border: none;
+  color: inherit;
+  opacity: 0.6;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 0.2rem;
+}
+.sel-tray-clear:hover {
+  opacity: 1;
+}
+
+.sel-tray-count {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.sel-tray-actions {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.sel-tray-actions button {
+  border: none;
+  border-radius: 999px;
+  padding: 0.45rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  color: inherit;
+  transition: background 0.15s ease;
+}
+
+.sel-tray-actions button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sel-tray-actions button.danger {
+  background: var(--danger);
+  color: white;
+}
+
+.sel-tray-actions button.danger:hover {
+  filter: brightness(1.1);
+}

@@ -1,0 +1,49 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "positions": "Puestos",
+    "attributes": "Biblioteca de atributos",
+    "profile": "Mi perfil",
+    "login": "Iniciar sesión",
+    "register": "Crear cuenta",
+    "logout": "Cerrar sesión",
+    "search_placeholder": "Buscar puestos, CVs, candidatos…"
+  },
+  "attributes": {
+    "title": "Biblioteca de atributos",
+    "subtitle": "Campos reutilizables compartidos entre perfiles, puestos y CVs.",
+    "new": "Nuevo atributo",
+    "name": "Nombre",
+    "category": "Categoría",
+    "type": "Tipo",
+    "description": "Descripción",
+    "recently_used": "Usados recientemente",
+    "all_categories": "Todas las categorías",
+    "search_placeholder": "Buscar por nombre…",
+    "delete_selected": "Eliminar",
+    "edit_selected": "Editar",
+    "selected_count": "{{count}} seleccionados",
+    "system_badge": "Integrado",
+    "empty": "Ningún atributo coincide con tus filtros todavía.",
+    "options": "Opciones (una por línea)",
+    "save": "Guardar atributo",
+    "cancel": "Cancelar"
+  },
+  "positions": {
+    "title": "Puestos",
+    "subtitle": "Plantillas de CV personalizables, compartidas entre todos los reclutadores."
+  },
+  "auth": {
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "sign_in": "Iniciar sesión",
+    "create_account": "Crear cuenta",
+    "or": "o continúa con",
+    "google": "Google",
+    "facebook": "Facebook"
+  },
+  "common": {
+    "loading": "Cargando…",
+    "error_generic": "Algo salió mal. Inténtalo de nuevo."
+  }
+}

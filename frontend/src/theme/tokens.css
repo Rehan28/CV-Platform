@@ -1,0 +1,102 @@
+@import "@fontsource/space-grotesk/500.css";
+@import "@fontsource/space-grotesk/600.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+
+:root {
+  /* Light theme */
+  --ink: #1b1f3b;
+  --ink-soft: #4a4f72;
+  --brass: #b8933f;
+  --brass-soft: #e9d9b3;
+  --surface: #ffffff;
+  --surface-sunken: #f5f6f8;
+  --surface-raised: #ffffff;
+  --border: #dfe1ea;
+  --text: #1b1f3b;
+  --text-muted: #666b8c;
+  --danger: #b3312c;
+  --danger-bg: #fbeaea;
+  --success: #2f6d4f;
+  --success-bg: #e7f3ec;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --shadow-md: 0 4px 16px rgba(27, 31, 59, 0.08);
+  --shadow-lg: 0 12px 32px rgba(27, 31, 59, 0.16);
+}
+
+[data-theme="dark"] {
+  --ink: #eef0fb;
+  --ink-soft: #b7bbe0;
+  --brass: #d9b465;
+  --brass-soft: #46381e;
+  --surface: #12141c;
+  --surface-sunken: #0b0d13;
+  --surface-raised: #1a1d29;
+  --border: #2b2f42;
+  --text: #eef0fb;
+  --text-muted: #9498bd;
+  --danger: #e5726b;
+  --danger-bg: #3a1c1c;
+  --success: #6bc79a;
+  --success-bg: #16302380;
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--surface-sunken);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 0.4em;
+}
+
+a {
+  color: var(--ink);
+}
+
+button {
+  font-family: var(--font-body);
+}
+
+:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
