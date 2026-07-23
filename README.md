@@ -119,14 +119,7 @@ All demo accounts use the password `password123`.
 | `recruiter@demo.io`   | Recruiter                      |
 | `candidate@demo.io`   | Candidate                      |
 
-## Configuration
 
-### Switching databases
 
-The backend defaults to a zero-config SQLite file. To use Postgres, MySQL, or MSSQL, set the following in `backend/.env`:
 
-```env
-DB_DIALECT=postgres
-DB_URL=postgres://user:pass@host:5432/dbname
-```
 
